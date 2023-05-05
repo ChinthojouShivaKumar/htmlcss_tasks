@@ -1,0 +1,76 @@
+/*  body background content */
+body {
+    display: flex;
+    background-image: url(./backgroundimage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* header tag contents  */
+
+header h1{
+    color: red;
+    text-transform: uppercase;
+    text-decoration: double;
+    margin: 0px 10px 0px 0px;
+    background-color: black;
+}
+/*  to move the field set box  */
+.move-field {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 80%;
+   
+}
+
+.border-box {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10%;
+    line-height: 30px;
+    width: 25%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: whitesmoke;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.userid {
+    justify-content: center;
+    border-radius: 10% white;
+    display: flex;
+
+}
+
+a {
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    display: flex;
+}
+
+span {
+    justify-content: center;
+    display: inline-flex;
+    color: whitesmoke;
+    line-height: 30px;
+    
+}
+
+.Sumbit :hover { 
+    color: white;
+    background-color: whitesmoke;
+    text-decoration: none;
+   
+}
+
+footer {
+    align-content: baseline;
+}

@@ -1,0 +1,123 @@
+/*  Header conent */
+body {
+    background-color: black;
+}
+
+.Nav-bar {
+    display: flex;
+    justify-content: left;
+    background-color: black;
+    margin: -25px -10px;
+    padding: 20px 40px;
+}
+
+.Nav-bar h1 {
+    display: flex;
+    justify-content: flex-start;
+    color: red;
+    margin: 3px 5px;
+    padding: 5px 100px;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    display: flex;
+    padding-right: 30%;
+    margin: 20px 30px;
+    padding: 2px 100px
+    
+}
+
+.nav-link {
+    color: white;
+    float: left;
+    display: flex;
+    text-align: right;
+    padding: 3px 100px;
+    
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex;
+}
+
+li a:hover {
+    text-decoration: underline;
+    color: white;
+    transition: 0.2s;
+    transform: scaleX(0.2s);
+}
+
+/*  body content */
+.container {
+    
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    color: white;
+    
+}
+
+.title  {
+    display: flex;
+    padding: 10% 5%;
+}
+
+img {
+    float: right;
+    margin: -345px 0px 10px 40px;
+}
+
+.title h1 {
+    font-family: cursive;
+    font-size: 50px;
+    color: white;
+}
+
+hr {
+
+    margin-top: 200px;
+    background: 3px black;
+}
+
+/* vedio part */
+
+.vedio1 {
+    position: relative;
+    margin: 3% 5%;
+    
+}
+
+.vedio2 {
+    position: relative;
+    float: right;
+    padding: 0px 10px 10px;
+    margin: -18% 5%
+
+}
+
+.vedio3 {
+    position: absolute;
+    margin: -18% 40%;
+}
+
+footer {
+    background-color: #454545;
+    padding: 10% 20%;
+    margin-top: 5%;
+
+}
+
+p {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: dotted;
+}
+
+span {
+    text-decoration: line-through;
+    text-transform: capitalize;
+}

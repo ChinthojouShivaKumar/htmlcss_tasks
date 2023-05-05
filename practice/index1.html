@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+
+            
+            #container {
+                display: flex;
+                width: 600px;
+                height: 700px;
+                left: 600px;
+                position: relative;
+
+               
+            }
+            .stick {
+                position: absolute;
+                width: 10px;
+                height: 600px;
+                border: 2px solid black;
+                border-radius: 30%;
+                top: 100px;
+                z-index: -1;
+            }
+
+            .flag {
+                
+                position: absolute;
+                width: 400px;
+                height: 200px;
+                border: 2px solid black;
+               
+                top: 100px;
+                overflow: hidden;
+                animation: flags 3s alternate ease-in-out 1;
+            }
+            @keyframes flags {
+
+                from {
+                    top: 600px;
+                    width: 0px;
+                     
+                }
+
+               
+
+                to{
+
+                   top: 100px;
+                   width: 400px;
+
+                }
+                
+            }
+
+            .orange {
+                position: relative;
+                border: 2px solid black;
+                width: 400px;
+                height: 66px;
+                background-color: orange;
+                overflow: hidden;
+            }
+            .white {
+                position: relative;
+                border: 2px solid black;
+                width: 400px;
+                height: 66px;
+                background-color: whitesmoke;
+                overflow: hidden;
+            }
+            .green {
+                position: relative;
+                border: 2px solid black;
+                width: 400px;
+                height: 66px;
+                background-color: green;
+                overflow: hidden;
+            }
+            .ashok {
+                border: 2px solid black;
+                width: 60px;
+                height: 63px;
+                border-radius: 50%;
+                position: relative;
+                left: 160px;
+                background-color: blue;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div id="container">
+            <div class="stick"></div>
+            <div class="flag">
+                <div class="orange"></div>
+                <div class="white">
+                    <div class="ashok"></div>
+                </div>
+                
+                <div class="green"></div>
+            </div>
+        </div>
+        
+    </body>
+</html>

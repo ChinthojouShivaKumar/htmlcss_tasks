@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media only screen and (max-width: 375px) {
+            .box1 {
+                background-color: aqua;
+                display: block;
+                width: 300px;
+                height: 300px;
+                font-style: italic;
+
+            }
+        }
+        @media (min-width: 375px) and (max-width: 560px) {
+            .box2 {
+                background-color: rgb(255, 0, 221);
+                display: block;
+                width: 500px;
+                height: 600px;
+            }
+        }
+        @media (min-width: 560px) and (max-width: 1020px) {
+            .box3 {
+                background-color: rgb(255, 0, 0);
+                display: block;
+                width: 600px;
+                height: 900px;
+            }
+        }
+
+        @media (min-width: 1020px) {
+            .box4 {
+                background-color: rgb(115, 255, 0);
+                display: block;
+                width: 900px;
+                height: 1200px;
+            }
+
+        }
+            
+            
+            
+    </style>
+</head>
+<body>
+    <div class="box1"> Hi I am iphone </div>
+    <div class="box2">Hi I am android </div>
+    <div class="box3"> Hi I am tablet</div>
+    <div class="box4"> Hi I am laptop </div>
+    
+</body>
+</html>

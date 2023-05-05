@@ -1,0 +1,119 @@
+h1 {
+    text-align: center;
+    background-image: linear-gradient( red, blue, green);
+    margin: -10px;
+}
+.bird {
+    position: relative;
+    animation: flys 2s linear infinite;
+   
+}
+@keyframes flys {
+    50% {
+        transform: translateY(20px);
+    }
+}
+.body {
+    position: relative;
+    border: 2px solid black;
+    height: 60px;
+    width: 100px;
+    margin: 20% 50%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: rgb(218, 185, 123); 
+    
+}
+
+
+
+.head {
+    position: relative;
+    left: 805px;
+    bottom: 405px;
+    border: 2px solid black;
+    height: 40px;
+    width: 60px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 30px;
+    background-color: rgb(218, 185, 123);
+}
+
+.eye {
+    position: relative;
+    left: 845px;
+    bottom: 440px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    animation: blinking 2s linear infinite ;
+}
+
+@keyframes blinking {
+    0% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.eye-in {
+    position: relative;
+    left: 2px;
+    bottom: 1px;
+    width: 5px;
+    height: 5px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+
+}
+
+.wing {
+    position: relative;
+    left: 760px;
+    bottom: 418px;
+    border: 2px solid black;
+    width: 60px;
+    height: 40px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 0px;
+    background-color: rgb(218, 185, 123);  
+    animation: fly 2s linear infinite;
+    transform-origin: right;
+
+}
+
+@keyframes fly {
+    50% {
+        transform: rotate(20deg)
+    }
+}
+
+.feather1 {
+    position: relative;
+    bottom: 510px;
+    left: 713px;
+    width: 0px;
+    height: 0px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 60px solid rgb(227, 206, 166);
+    transform: rotate(-45deg);
+}
+
+.beak {
+    position: relative;
+    bottom: 553px;
+    left: 865px;
+    width: 0px;
+    height: 0px;
+    border-left: 15px solid orange;
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+}
+

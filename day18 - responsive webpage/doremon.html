@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <title> Responsive Web Design </title>
+        <style>
+            body {
+                
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: 600;
+                background-image: linear-gradient(red, yellow, blue, green, cyan);
+                background-repeat: no-repeat;
+                overflow: scroll;
+                
+               
+                
+            }
+            #nav-bar {
+                width: 98vw;
+                height: 90px;
+                background-color: blanchedalmond;
+                color: rgb(204, 26, 26);
+                display: inline-block;
+                margin-top: 10px;
+                
+            }
+
+            #nav-bar > h1 {
+                display: inline-block;
+                width: 100px;
+                height: 30px;
+                margin-left: 30px;
+            }
+
+            #nav-bar > ul {
+                list-style: none;
+                float: right;
+                display: flex;
+                flex-direction: row;
+                margin-right: 10px;
+            }
+
+            #nav-bar > ul > li {
+                margin-left: 30px;
+
+            }
+
+            #container1 {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                
+                
+            }
+
+            .content {
+                display: inline-block;
+                width: 1000px;
+                height: 700px;
+            }
+            .image {
+                display: inline-block;
+            }
+
+            .image > img {
+                width: 400px;
+                height: 400px;
+                margin: 30px 40px;
+
+            }
+
+            @media only screen and (min-width: 450px){
+                body {
+                    background-image: linear-gradient(cyan, pink, rgb(92, 92, 13), rgb(154, 105, 13));
+                }
+            }
+
+            @media only screen and (max-width: 700px) {
+                #nav-bar > h1 {
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    font-style: oblique;
+                    display: block;
+                }
+            
+            }
+
+            
+
+            
+        </style>
+        
+    </head>
+    <body>
+        <nav id="nav-bar">
+            <h1> Coders </h1>
+            <ul>
+                <li> About </li>
+                <li> Portfolio </li>
+                <li> content </li>
+                <li> contact </li>
+            </ul>
+        </nav>
+        <div id="container1">
+            <div class="content">
+                <h1> Favourite cartoon Doremon </h1>
+                <p>Doraemon (ドラえもん) is a Japanese manga series written and illustrated by Fujiko F. Fujio. The manga was first serialized in December 1969, with its 1,345 individual chapters compiled into 45 tankōbon volumes and published by Shogakukan from 1970 to 1996. The story revolves around an earless robotic cat named Doraemon, who travels back in time from the 22nd century to aid a boy named Nobita Nobi.
+
+                    The manga spawned a media franchise. Three anime TV series have been adapted in 1973, 1979, and 2005. Additionally, Shin-Ei Animation has produced over forty animated films, including two 3D computer animated films, all of which are distributed by Toho. Various types of merchandise and media have been developed, including soundtrack albums, video games, and musicals. The manga series was licensed for an English language release in North America, via Amazon Kindle, by a collaboration of Fujiko F. Fujio Pro with Voyager Japan and AltJapan Co., Ltd. The anime series was licensed by Disney for an English-language release in North America in 2014, and LUK International in Europe, the Middle East and Africa.
+
+                    Doraemon was well-received by critics and became a hit in many Asian countries. It won numerous awards, including the Japan Cartoonists Association Award in 1973 and 1994, the Shogakukan Manga Award for children's manga in 1982, and the Tezuka Osamu Cultural Prize in 1997. By 2019, it has sold over 250 million copies worldwide, becoming one of the best-selling manga series in history. The Doraemon character has been viewed as a Japanese cultural icon, and was appointed as the first "anime ambassador" in 2008 by the country's Foreign Ministry.
+                </p>
+                <p>
+                    Nobita Nobi is a ten-year-old Japanese school boy, who is kind-hearted and honest, but also lazy, unlucky, weak, gets bad grades and is bad at sports. One day, a robot cat from the 22nd century named Doraemon is sent back to the past by Nobita's future grandchild, Sewashi Nobi, to take care of Nobita so that his descendants can have a better life. Doraemon has a four-dimensional pouch in which he stores tools, inventions, and gadgets from the future to aid Nobita whenever he is faced with a problem. Although Doraemon is a cat robot, he has a fear of mice because of an incident where robotic mice chewed off his ears. This is why Doraemon lost his original yellow color and turned blue, from sadness.
+
+                    Nobita has three main friends: Takeshi Goda (nicknamed Gian), Suneo Honekawa (Gian's sidekick), and Shizuka Minamoto, Nobita's best friend and love-interest. Gian is a strong, leading and domineering boy, but also loyal to his friends. Suneo is a wealthy and spoiled boy who uses his friendship with Gian to win the respect of other schoolmates. Shizuka is a gentle and kind girl who frequently plays with Nobita. Nobita has a crush on Shizuka; she is his prospective future wife (Nobita's future wife is initially Gian's younger sister). Although Gian and Suneo are Nobita's friends, they also typically bully and abuse him. Nobita normally responds by using Doraemon's gadgets to fight back against them, but Nobita has a tendency to get carried away with using the gadgets (or Gian and Suneo, if they steal it away), which typically results in unintended consequences for him and others.
+
+                    In addition to Gian, Suneo, and Shizuka, Dorami and Hidetoshi Dekisugi (common name Dekisugi) are also recurring characters. Dorami is Doraemon's younger sister, and Dekisugi is a gifted student boy who as Shizuka's close friend, frequently attracts the jealousy of Nobita.
+                </p>
+            </div>
+            <div class="image">
+                <img src="./Doraemon 16 - agus91.png" alt="doremon">
+            </div>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+p {
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-decoration-line: overline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 70px;
+}
+span {
+    text-decoration-line: underline;
+    text-shadow: 1px 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text-type {
+    text-decoration-line: line-through;
+    font-family: "Brush Script MT" cursive;
+    font-weight: bolder;
+}
+body {
+    background-color: grey;
+}

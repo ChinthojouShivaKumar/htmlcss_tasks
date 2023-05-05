@@ -1,0 +1,107 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    text-decoration: underline;
+    text-transform: capitalize; 
+}
+.container1 {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    margin: 40px 80px ;
+    display: inline-block;
+    
+}
+
+ul {
+    margin: 0px 80px ;
+    border-bottom: 3px solid grey;
+    text-align: center;
+}
+
+
+.container1 li {
+    
+    display: inline-block;
+    border: 10px solid black;
+    border-radius: 50%;
+    margin-top: 100%;
+    animation: Bouncing 2s linear infinite ;
+}
+
+@keyframes Bouncing {
+
+    0% { transform: translateY(0);}
+
+    50% { transform: translateY(-150px);}
+
+    100% { transform: translateY(0);}
+}
+ 
+ul li:nth-child(2) {
+    animation-duration: 1s;
+    border-color: rgb(235, 235, 118)
+}
+ul li:nth-child(1) {
+    animation-duration: 3s;
+    border-color: rgb(67, 18, 18)
+}
+
+ul li:nth-child(3) {
+    animation-duration: 4s;
+    border-color: brown;
+}
+
+.container2 {
+    background-color: rgb(225, 217, 217);
+    width: 500px;
+    height: 500px;
+    float: right;
+    display: inline-block;
+    margin: 40px 100px;
+}
+
+#square {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    position: relative;
+    
+    animation: mymove 2s linear infinite 3s;
+
+}
+
+@keyframes mymove {
+    0%  {
+            background-color:red; 
+            left:0px; 
+            top:0px; 
+            transform: rotate(0deg);
+        }
+  25%  {
+        background-color:yellow;
+        left: 400px; 
+        top:0px; 
+        transform: rotate(90deg);
+        }
+  50%  {
+        background-color:blue; 
+        left:400px; 
+        top:400px; 
+        transform: rotate(180deg);
+        }
+  75%  {
+        background-color:green; 
+        left:0px; 
+        top:400px; 
+        transform: rotate(90deg);
+    }
+  100% {
+        background-color:red; 
+        left:0px; 
+        top:0px; 
+        transform: rotate(0deg);
+        }
+}

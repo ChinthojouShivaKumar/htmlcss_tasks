@@ -1,0 +1,48 @@
+body {
+    background-image: url(./4k-wallpapers-26.jpg);
+    width: 50%;
+    height: 100%;
+    
+}
+.a {
+    /* background-color: aqua; */
+    position: relative;
+    width: 400px;
+}
+
+.b {
+    /* background-color: aquamarine; */
+    position: relative;
+    width: 400px;
+    top: 500px;
+}
+
+.c {
+    /* background-color: yellowgreen; */
+    position: relative;
+    width: 400px;
+    /* left: 1400px; */
+   
+    bottom: 200px;
+    left: 1100px;
+    text-align: right;
+    
+}
+
+.d {
+    /* background-color: blueviolet; */
+    position: relative;
+    width: 400px;
+    
+    left: 1120px;
+    top: 300px;
+    text-align: right;
+}
+
+.e {
+    /* background-color: brown; */
+    position: relative;
+    width: 400px;
+    top: -60px;
+    left: 600px;
+}
